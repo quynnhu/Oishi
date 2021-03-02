@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;
+    width: 700px;
+    height: 450px;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 0px;
+}
+tr:nth-child(2n){
+    background-color: white;
+}
+tr:nth-child(2n+1){
+    background-color: lightgreen;
+}
+
+th{
+    background-color: yellow;
+}
+.prod>.uudiemnoibat{
+    font-variant: small-caps;
+    color: orangered;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+.prod{
+    border-radius: 10px;
+    box-shadow: 0 0 5px red;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.prod>.image{
+    max-width: 98%;
+    height: 150px;
+    margin-bottom: 30px;
+}

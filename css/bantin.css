@@ -1,0 +1,85 @@
+#hmenu{
+    margin: 0 auto;
+    width: 750;
+}
+
+.bantinimage_1{
+    width: 133%;
+    background-color:white;
+    margin-bottom: 100px;
+}
+
+.bantinimage_2{
+    width: 133%;
+    background-color:white;
+    margin-bottom: 100px;
+}
+
+.bantinimage_3{
+    width: 133%;
+    background-color:white;
+    margin-bottom: 0px;
+}
+
+.image img{
+    width: 50%;
+    float: right;
+}
+.image1 img{
+    width: 30%;
+    float: left;
+}
+.bantin_1{
+    width: 50%;
+    float: left;
+    color: red;
+    font-size: 180%;
+    font-weight: bold;
+}
+.bantin_2{
+    width: 50%;
+    float: left;
+    color: black;
+    font-size: 150%;
+}
+
+.bantin_3{
+    width: 50%;
+    float: left;
+    color: red;
+    font-size: 300%;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.bantin_5{
+    width: 50%;
+    float: left;
+    color: red;
+    font-size: 180%;
+    font-weight: bold;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow:0 0 2px gray;
+    
+}
+.vmenu a{
+    background: url("../image/mattroi.png") no-repeat left center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url('../image/muiten1.png') no-repeat left center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
